@@ -48,11 +48,14 @@ section .section-title{
 
 }
 #what-we-do .card .card-block:before{
+	background-color: #cd99cd;
+	padding: 10px;
+	border-radius: 13px;
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
     color: #5d2276;
-    left: 0;
+    left: -30px;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
 }
