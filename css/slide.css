@@ -37,20 +37,3 @@
 .w-100 {
     width: 100%!important;
 }
-
-@media only screen and (max-width: 768px) {
-
-    .slide-tittle{
-        font-size: 1.1rem;
-    }
-
-    .slide-text{
-         font-size: 0.6rem ;
-    }
-
-    .w-100 {
-        width: 100%!important;
-        height: 250px;
-    }
-
-}
