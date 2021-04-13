@@ -1,0 +1,29 @@
+.nav-top{
+    background-color: #000000
+}
+
+.icon-rounded{
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.arrow-nav{
+    width: 15px;
+}
+
+.nav-li{
+    margin-left: 1.5rem!important;
+}
+ .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .4rem;
+    padding-left: .4rem;
+}
+
+ .nav-fixed{
+    position: fixed;
+    top:0%;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+     background-color: #ffffff;
+}

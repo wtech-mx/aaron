@@ -27,3 +27,7 @@ footer{
  .rights {
      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
  }
+
+ .icon-rounded-footer{
+     background-color: #5d2276;border-radius: 50px;padding: 10px
+ }
