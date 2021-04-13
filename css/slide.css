@@ -4,7 +4,7 @@
     left: 8.2%;
     bottom: 0px;
     height: 35%;
-    background-color: #000000;
+    background-color: #343a40;
     opacity: 0.6;
 }
 
@@ -15,11 +15,15 @@
 .slide-tittle{
     color: #ffffff;
     font-size: 2.25rem ;
+    top: -15px;
+    position: relative;
 }
 
 .slide-text{
     color: #ffffff;
     font-size: 1rem ;
+    top: -15px;
+    position: relative;
 }
 
 .tittle-info{

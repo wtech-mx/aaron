@@ -1,0 +1,28 @@
+.btn-write{
+    background-color: #5d2276;
+    border: 1px solid #5d2276;
+}
+
+.btn-information{
+    background-color: #697ab9;
+    border: 1px solid #697ab9;
+}
+
+.btn-write:hover{
+     background-color: #697ab9;
+}
+
+.btn-information:hover{
+    background-color: #5d2276;
+}
+@media only screen and (max-width: 768px) {
+    .btn-write{
+        padding: .187rem .37rem;
+        font-size: 0.5rem;
+    }
+
+    .btn-information{
+        padding: .187rem .37rem;
+        font-size: 0.5rem;
+    }
+}
