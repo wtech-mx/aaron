@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-      <title>Hello, world!</title>
+      <title>aaron</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,23 +12,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/scroll.css">
     <link rel="stylesheet" href="./css/slide.css">
     <link rel="stylesheet" href="./css/cards.css">
     <link rel="stylesheet" href="./css/card-slide.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/testimonial.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
   </head>
 
   <body>
 
-        <div class="row p-5">
+        <div class="row">
 
             <div class="col-12">
 
                 <!--Navbar-->
-                <div class="row ">
+                <div class="row">
                     <div class="col-12">
                         <div class="navbar-wrapper">
                                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -52,7 +52,7 @@
 
                                         <li class="nav-item ml-4 active">
                                              <img  src="./img/arrow-left-blue.png" width="15px">
-                                             <a class="nav-link d-inline" href="#">¿Quiénes Somos?</a>
+                                             <a class="nav-link d-inline" href="about.html">¿Quiénes Somos?</a>
                                             <img  src="./img/arrow-rigth.png" width="15px">
                                         </li>
 
@@ -121,16 +121,16 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-12 p-5">
+                                <div class="col-md-12 p-5" style="background-color: #c9d3f0">
                                     <div class="d-flex justify-content-between">
-                                        <img  src="./img/arrow-left.png" width="20%" height="20%">
+                                        <img class="arrows-banner" src="./img/arrow-left.png" >
 
-                                        <div class="container p-3">
-                                            <h3 class="text-center tittle-info mb-2">  Renta desde 580.00 MXN  </h3>
-                                            <p class="text-center texts-info"> Escribenos | Más Información </p>
+                                        <div class="container-banner">
+                                            <h3 class="text-center tittle-banner mb-2">  Renta desde 580.00 MXN  </h3>
+                                            <p class="text-center text-banner"> Escribenos | Más Información </p>
                                         </div>
 
-                                        <img  src="./img/arrow-rigth.png" width="20%" height="20%">
+                                        <img class="arrows-banner" src="./img/arrow-rigth.png" >
 
                                     </div>
 
@@ -150,9 +150,9 @@
 
                             <div class="row">
                                 <div class="col-12 p-4">
-                                    <img  src="./img/arrow-transparent-l.png" width="80px">
+                                    <img class="arrows-transparent" src="./img/arrow-transparent-l.png">
                                      <h4 class="mb-5 d-inline font-weight-bold text-white">Elige tu sector</h4>
-                                    <img  src="./img/arrow-transparent-r.png" width="80px">
+                                    <img class="arrows-transparent" src="./img/arrow-transparent-r.png">
                                 </div>
                             </div>
 
@@ -320,77 +320,73 @@
                 <div class="row">
 
                     <div class="col-12 p-4 text-center">
-                        <img  src="./img/arrow-left.png" width="80px">
+                        <img class="img-arrows" src="./img/arrow-left.png" >
                            <h4 class="mb-5 d-inline font-weight-bold text-dark">Soluciones</h4>
-                        <img  src="./img/arrow-rigth-blue.png" width="80px">
+                        <img class="img-arrows" src="./img/arrow-rigth-blue.png" >
                     </div>
 
-                    <div class="col-12">
-
-                       <section id="what-we-do">
-                            <div class="container-fluid">
-
-                                <div class="row mt-5">
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <div class="col-12 p-5" id="what-we-do">
+                                <div class="row mt-2">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-1">
-                                                <h3 class="card-title">Gestión de agendas </h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Gestión de agendas </h3>
+                                                <p class="card-text text-services">
                                                     Enviamos avisos automatizados de cita por Email o SMS de las reservaciones pendientes. Clasifica por colores y bloquea horarios.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-2">
-                                                <h3 class="card-title">Control de Inventario</h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Control de Inventario</h3>
+                                                <p class="card-text text-services">
                                                     Revisa la existencia en otras sucursales y los movimientos en cada una. Gestiona de manera precisa todos tus productos con el control de inventario.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-3">
-                                                <h3 class="card-title">Punto de venta </h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Punto de venta </h3>
+                                                <p class="card-text text-services">
                                                     Tendrás un punto de venta práctico, lleva un control exacto de los sueldos y comisiones de tus empleados
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-4">
-                                                <h3 class="card-title">Informes ejecutivos </h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Informes ejecutivos </h3>
+                                                <p class="card-text text-services">
                                                     Dispondrás de toda la información de tu centro las 24h del día. Consulta de manera rápida las ventas del día en un resumen ejecutivo.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-5">
-                                                <h3 class="card-title">Expediente de clientes</h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Expediente de clientes</h3>
+                                                <p class="card-text text-services">
                                                     Consulta el historial completo de tus clientes, genera rápidamente promociones para tu negocio. Implementa estrategias de fidelización.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                                         <div class="card">
                                             <div class="card-block block-6">
-                                                <h3 class="card-title">Finanzas y contabilidad </h3>
-                                                <p class="card-text">
+                                                <h3 class="card-title tittle-services">Finanzas y contabilidad </h3>
+                                                <p class="card-text text-services">
                                                     Consulta tus ingresos por periodo, cliente o empleado y genera reportes de ventas detallados. Cambia los porcentajes de comisión asignados a tu personal de forma rápida
                                                 </p>
                                             </div>
@@ -398,8 +394,6 @@
                                     </div>
 
                                 </div>
-                            </div>
-                        </section>
 
                     </div>
 
@@ -411,12 +405,12 @@
                     <div class="col-12">
                         <div id="testimonial_095" class="carousel slide testimonial_095_indicators testimonial_095_control_button thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
 
-                                    <div class="testimonial_095_header">
+                            <div class="testimonial_095_header">
                                         <h5>Testimonios</h5>
                                         <p class="text-white">Consulta nuestros casos de éxito</p>
                                     </div>
 
-                                    <div class="carousel-inner" role="listbox">
+                            <div class="carousel-inner" role="listbox">
                                         <div class="carousel-item active">
                                             <div class="testimonial_095_slide">
                                                 <img class="mb-3" src="./img/user.png" alt="" width="15%">
@@ -459,7 +453,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="carousel-item">
+                            <div class="carousel-item">
                                             <div class="testimonial_095_slide">
                                                 <img class="mb-3" src="./img/user.png" alt="" width="15%">
                                                 <h5>
@@ -472,17 +466,33 @@
                                             </div>
                                         </div>
 
-                                </div>
+                        </div>
 
                         <a class="carousel-control-prev" href="#testimonial_095" data-slide="prev" >
-                                        <img class="mb-3" src="./img/arrow-transparent-l.png" alt="" width="250%">
-                                    </a>
+                            <img class="mb-3 arrows-testimonials" src="./img/arrow-transparent-l.png" alt="">
+                        </a>
 
                         <a class="carousel-control-next" href="#testimonial_095" data-slide="next">
-                                         <img class="mb-3" src="./img/arrow-transparent-r.png" alt="" width="250%">
-                                    </a>
+                            <img class="mb-3 arrows-testimonials" src="./img/arrow-transparent-r.png" alt="">
+                        </a>
 
                     </div>
+
+                    <div class="col-md-12 p-5" style="background-color: #c9d3f0">
+                        <div class="d-flex justify-content-between">
+                            <img class="arrows-banner" src="./img/arrow-left.png" >
+
+                            <div class="container-banner">
+                                <h3 class="text-center tittle-banner mb-2">  Renta desde 580.00 MXN  </h3>
+                                <p class="text-center text-banner"> Escribenos | Más Información </p>
+                            </div>
+
+                            <img class="arrows-banner" src="./img/arrow-rigth.png" >
+
+                        </div>
+
+                    </div>
+
                 </div>
                 <!-- Testimonios -->
 
@@ -493,7 +503,7 @@
                               <div class="row ">
 
                                   <div class="col-xl-2 col-md-4 col-sm-4 col-12 my-auto mx-auto">
-                                        <img src="./img/logo_collapse_SF.png" alt="" width="70%">
+                                        <img class="img-responsive" src="./img/logo_collapse_SF.png" alt="" width="auto">
                                   </div>
 
                                   <div class="col-xl-4 col-md-4 col-sm-4 col-12">
@@ -517,18 +527,20 @@
                                       </ul>
                                   </div>
 
-                                  <div class="col-xl-2 col-md-4 col-sm-4 col-12">
-                                      <p class="social text-muted mb-0 pb-0 bold-text">
-                                          <span class="">
-                                              <i class="fa fa-facebook text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
-                                          </span>
-                                          <span class="">
-                                              <i class="fa fa-twitter text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
-                                          </span>
-                                          <span class="">
-                                              <i class="fa fa-instagram text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
-                                          </span>
-                                      </p>
+                                  <div class="col-xl-2 col-md-4 col-sm-4 col-12 my-auto mx-auto">
+                                      <div class="d-flex align-items-center">
+                                          <p class="social text-muted mb-0 pb-0 bold-text">
+                                              <span class="">
+                                                  <i class="fa fa-facebook text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
+                                              </span>
+                                              <span class="">
+                                                  <i class="fa fa-twitter text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
+                                              </span>
+                                              <span class="">
+                                                  <i class="fa fa-instagram text-white" aria-hidden="true" style="background-color: #5d2276;border-radius: 50px;padding: 10px"></i>
+                                              </span>
+                                          </p>
+                                      </div>
                                   </div>
                               </div>
                           </div>
@@ -553,7 +565,6 @@
 
 
     <!-- JavaScript Custom -->
-    <script src="./js/Scroll.js"></script>
     <script src="./js/card-slide.js"></script>
     <script src="./js/testimonials.js"></script>
 

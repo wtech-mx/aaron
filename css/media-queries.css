@@ -1,0 +1,73 @@
+
+.img-arrows{
+  width: 80px;
+}
+
+.arrows-banner{
+    width:13%;
+    height:13%;
+}
+
+.arrows-transparent{
+    width:80px;
+}
+
+.arrows-testimonials{
+    width:250% ;
+}
+
+.tittle-banner{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.container-banner{
+    padding:2.5rem!important;
+}
+
+.tittle-services{
+    font-size: 20px;
+}
+
+.text-services{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .img-arrows{
+    width: 40px;
+  }
+    .arrows-banner{
+        width:10% ;
+        height:10%;
+    }
+
+    .container-banner{
+        padding: .1rem!important;
+    }
+
+    .tittle-banner{
+        font-size: calc(16px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+    .text-banner{
+        font-size: calc(12px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    .arrows-transparent{
+        width:60px;
+    }
+
+    .tittle-services{
+        font-size: calc(20px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    .text-services{
+        font-size: calc(14px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    }
+
+    .arrows-testimonials{
+        width:100% ;
+    }
+
+}
+
