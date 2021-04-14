@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/testimonial.css">
     <link rel="stylesheet" href="./css/buttons.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/media-queries.css">
 
   </head>
@@ -119,9 +120,58 @@
                 <!--Navbar-->
 
                 <!--login secction-->
-                <div class="row">
-                    <div class="col-12">
+                <div class="row justify-content-center bg-login">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-6 mt-5 position-relative">
 
+                            <img class="img-letters-vertical" src="./img/letras-vertical.png" alt="">
+
+                            <form class="form-horizontal p-3 mt-5" action="/action_page.php">
+
+                               <p class="text-center mt-5">
+                                   <img  src="./img/logo-negative.png" alt="">
+                               </p>
+
+                                <div class="form-group">
+                                  <label class="text-white control-label col-sm-4" for="Usuario">
+                                       <i class="mt-3  fa fa-user" aria-hidden="true"></i>
+                                      Usuario:
+                                  </label>
+                                  <div class="col-sm-12">
+                                    <input type="Usuario" class="form-control" id="Usuario" placeholder="Usuario" name="Usuario">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <label class="text-white control-label col-sm-4" for="Contraseña">
+                                       <i class="mt-3  fa fa-lock" aria-hidden="true"></i>
+                                      Contraseña:
+                                  </label>
+                                  <div class="col-sm-12">
+                                    <input type="password" class="form-control" id="Contraseña" placeholder="Contraseña" name="Contraseña">
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-12 text-center">
+                                    <div class="checkbox">
+                                      <label class="text-white">
+                                          <input type="checkbox" name="remember">
+                                            Recordar datos de usuario
+                                      </label>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-12 text-center">
+                                    <button type="submit" class="btn btn-login">Iniciar Sesión</button>
+                                      <p class="text-white p-3">
+                                          Español | English
+                                      </p>
+                                  </div>
+                                </div>
+
+                              </form>
                     </div>
                 </div>
                 <!--login secction-->
