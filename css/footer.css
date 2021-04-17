@@ -29,5 +29,9 @@ footer{
  }
 
  .icon-rounded-footer{
-     background-color: #5d2276;border-radius: 50px;padding: 10px
+     background-color: #5d2276;
+     border-radius: 50px;
+     padding: 10px;
+     width: 40px;
+     height: 40px;
  }

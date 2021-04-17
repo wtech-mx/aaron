@@ -242,7 +242,6 @@
 .testimonial_095_slide>h5>a {
     padding: 3px;
     color: #ffffff;
-    font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
@@ -415,4 +414,8 @@
 .ps_easeInOutSine .carousel-item {
     -webkit-transition-timing-function: cubic-bezier(.445, .05, .55, .95);
     transition-timing-function: cubic-bezier(.445, .05, .55, .95)
+}
+
+.tittle-testimonio{
+    font-size: 35px;
 }

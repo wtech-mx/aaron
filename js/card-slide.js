@@ -28,9 +28,11 @@ $('.owl-prev').click(function() {
     $('.owl-item .item.show').removeClass('show');
     $('.owl-item .item').removeClass('next');
     $('.owl-item .item').removeClass('prev');
+
     $active.addClass('next');
 
     if($active.is('.first')) {
+
         $('.owl-item .last').addClass('show');
         $('.first').addClass('next');
         $('.owl-item .last').parent().prev().children('.item').addClass('prev');

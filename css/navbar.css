@@ -8,7 +8,7 @@
 }
 
 .arrow-nav{
-    width: 15px;
+    width: 13px;
 }
 
 .nav-li{
@@ -30,3 +30,12 @@
  .mt-custom{
     margin-top: 9rem!important;
  }
+
+.icon-custom{
+    width: 35px;
+    height: 35px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+    padding: 0px;
+}
