@@ -1,73 +1,53 @@
-.card {
+    .for_slick_slider{
+        display: flex;
+    }
+    .for_slick_slider .items{
+        width: 180px;
+        height: 220px;
+        margin: 50px;
+        position: relative;
+    }
 
-}
+     .for_slick_slider .text-cards{
+         align-content: center;
+        position: absolute;
+        top: 103%;
+        left: 40%;
+        color: #ffffff;
+     }
 
-.profile-pic {
+
+    .for_slick_slider .items .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 180px;
+        height: 220px;
+        background: rgba(0, 0, 0, 0.64);
+    }
+
+    .for_slick_slider .slick-center .overlay{
+        opacity: 0;
+    }
 
 
-}
-
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: #1E88E5 !important;
-    border: none;
-    padding: 5px 20px !important;
-    font: inherit;
-    font-size: 50px !important
-}
-
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
-    color: #0D47A1 !important;
-    background-color: transparent !important
-}
-
-.owl-dots {
-    display: none
-}
-
-button:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline-width: 0
-}
-
-.item {
-    display: none
-}
-
-.next {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
-}
-
-.prev {
-    display: block !important;
-    position: relative;
-    transform: scale(0.8);
-    transition-duration: 0.3s;
-    opacity: 0.6
-}
-
-.item.show {
-    display: block;
-    transition-duration: 0.4s
-}
-
-@media screen and (max-width: 999px) {
-
-    .next,
-    .prev {
+    .for_slick_slider .items img{
+        width: 180px;
+        height: 220px;
+        transition: all linear .4s;
         transform: scale(1);
-        opacity: 1
     }
 
-    .item {
-        display: block !important
+    .for_slick_slider .items .text-cards{
+        transform: scale(0.8);
     }
-}
+
+    .for_slick_slider .slick-center img{
+        transform: scale(1.1);
+    }
+
+    .for_slick_slider .slick-center .text-cards{
+        margin-top: 10px;
+        transform: scale(1);
+
+    }

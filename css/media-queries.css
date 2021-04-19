@@ -18,6 +18,7 @@
 
 .tittle-banner{
     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    font-weight: bold;
 }
 
 .container-banner{
@@ -140,6 +141,7 @@
     }
     .text-banner{
         font-size: calc(12px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+        font-weight: bold;
     }
 
     .arrows-transparent{
@@ -232,5 +234,11 @@
         margin-top: 9px;
         font-size: 8px;
     }
+
+    .icon-custom {
+        width: 20px;
+        height: 20px;
+    }
+
 }
 
