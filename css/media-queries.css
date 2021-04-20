@@ -17,8 +17,12 @@
 }
 
 .tittle-banner{
-    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    font-size: calc(34px + (60 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
     font-weight: bold;
+}
+
+.text-banner{
+    font-size: calc(34px + (30 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
 }
 
 .container-banner{
@@ -32,6 +36,8 @@
 .text-services{
     font-size: 15px;
 }
+
+
 
 @media only screen and (max-width: 1750px) {
    .container-about{
@@ -49,6 +55,12 @@
         font-size: 20px;
         left: 30px;
     }
+
+    .nav-li {
+        font-size: 16px;
+    }
+
+
 }
 
 @media only screen and (max-width: 1055px) {
@@ -80,6 +92,7 @@
         font-size: 15px;
         left: 30px;
     }
+
 
 }
 
@@ -114,6 +127,10 @@
         height: 700px !important;
     }
 
+    .nav-li {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width: 837px) {
@@ -137,11 +154,10 @@
     }
 
     .tittle-banner{
-        font-size: calc(16px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+        font-size: calc(16px + (53 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
     }
     .text-banner{
-        font-size: calc(12px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
-        font-weight: bold;
+        font-size: calc(12px + (48 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
     }
 
     .arrows-transparent{
@@ -186,18 +202,6 @@
         font-size: 12px;
     }
 
-    .slide-tittle{
-        font-size: 1.1rem;
-    }
-
-    .slide-text{
-         font-size: 0.6rem ;
-    }
-
-    .w-100 {
-        width: 100%!important;
-        height: 200px;
-    }
 
     .img-contact{
         width: 100% !important ;

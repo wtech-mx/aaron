@@ -12,7 +12,7 @@
          align-content: center;
         position: absolute;
         top: 103%;
-        left: 40%;
+        left: 42px;
         color: #ffffff;
      }
 
@@ -23,13 +23,12 @@
         left: 0;
         width: 180px;
         height: 220px;
-        background: rgba(0, 0, 0, 0.64);
+        background: rgba(0, 0, 0, 0);
     }
 
     .for_slick_slider .slick-center .overlay{
         opacity: 0;
     }
-
 
     .for_slick_slider .items img{
         width: 180px;
@@ -43,11 +42,10 @@
     }
 
     .for_slick_slider .slick-center img{
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 
     .for_slick_slider .slick-center .text-cards{
         margin-top: 10px;
         transform: scale(1);
-
     }
