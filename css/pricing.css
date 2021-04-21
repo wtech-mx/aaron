@@ -76,7 +76,7 @@
     padding: 10px 0;
     color:#5d2276;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 6px;
     transition:0.3s ease;
 }
 .pricingTable .btn-block:hover{
@@ -90,7 +90,7 @@
 }
 
 .pricingTable.pink .pricing-plans{
-    background-color: #ffffff;
+    background-color: #edf1f4;
 }
 
 .pricingTable.purple {
@@ -98,15 +98,15 @@
 }
 
 .pricingTable.purple .pricing-plans{
-    background-color: #ffffff;
+    background-color: #edf1f4;
 }
 
  .pricingTable.blue {
-    background-color: #697ab9;
+    background-color: #5e76d0;
 }
 
  .pricingTable.blue .pricing-plans{
-    background-color: #ffffff;
+    background-color: #edf1f4;
 }
 
 @media screen and (max-width:990px){

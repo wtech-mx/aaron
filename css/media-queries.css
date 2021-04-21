@@ -228,6 +228,29 @@
         height: auto !important;
     }
 
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        background: #ffffff;
+        height: 755px!important;
+        text-align: center;
+    }
+
+    .nav-li {
+        margin-top: 15px;
+        font-size: 22px;
+        padding: 30px;
+    }
+
+    .arrow-nav {
+        width: 23px;
+    }
+
 
 }
 
