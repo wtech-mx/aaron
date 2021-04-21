@@ -27,6 +27,11 @@
   border-radius: 10px;
 }
 
+.gallery-item-1:hover {
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
 .gallery-item-2,
 .gallery-item-4 {
   height: 200px;
@@ -41,6 +46,11 @@
   border-radius: 10px;
 }
 
+.gallery-item-2:hover {
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
 .gallery-item-3 {
   height: 300px;
   opacity: 1;
@@ -51,10 +61,16 @@
   border-radius: 10px;
 }
 
+
 .gallery-item-4 {
   left: 70%;
   transform: translateX(-50%);
   border-radius: 10px;
+}
+
+.gallery-item-4:hover {
+  cursor: pointer;
+  border: 2px solid #ffffff;
 }
 
 .gallery-item-5 {
@@ -64,21 +80,23 @@
   border-radius: 10px;
 }
 
+.gallery-item-5:hover {
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
 .gallery-controls {
   display: flex;
   justify-content: center;
   margin: 0 0;
 }
 
+
 .gallery-controls button {
   background-color: transparent;
-    color: #ffffff;
-  border: 0;
+  border: transparent;
+  color: #ffffff;
   cursor: pointer;
-  font-size: 16px;
-  margin: 0 20px;
-  padding: 0 12px;
-  text-transform: capitalize;
 }
 
 .gallery-controls button:focus {

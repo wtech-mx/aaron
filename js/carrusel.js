@@ -1,5 +1,6 @@
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
+
 const galleryControls = ['anterior', 'siguiente'];
 const galleryItems = document.querySelectorAll('.gallery-item');
 
@@ -10,7 +11,7 @@ class Carousel {
     this.carouselArray = [...items];
   }
 
-  // Update css classes for gallery
+  // Actualizar las clases css para la galería
   updateGallery() {
     this.carouselArray.forEach(el => {
       el.classList.remove('gallery-item-1');
@@ -25,7 +26,7 @@ class Carousel {
     });
   }
 
-  // Update the current order of the carouselArray and gallery
+  // Actualizar el orden actual del carrusel Array y la galería
   setCurrentState(direction) {
 
     if (direction.className == 'gallery-controls-anterior') {
@@ -37,26 +38,15 @@ class Carousel {
     this.updateGallery();
   }
 
-  // Construye la navegación del carrusel
-  // setNav() {
-    // galleryContainer.appendChild(document.createElement('ul')).className = 'gallery-nav';
-
-    // this.carouselArray.forEach(item => {
-    //   const nav = galleryContainer.lastElementChild;
-    //   nav.appendChild(document.createElement('li'));
-    // });
-  // }s
-
-  // Construct the carousel controls
+  // Construye los controles del carrusel
   setControls() {
     this.carouselControls.forEach(control => {
       galleryControlsContainer.appendChild(document.createElement('button')).className = `gallery-controls-${control}`;
-
-      document.querySelector(`.gallery-controls-${control}`).innerText = control;
+      // document.querySelector(`.gallery-controls-${control}`).innerText = control;
     });
   }
 
-  // Add a click event listener to trigger setCurrentState method to rearrange carousel
+  // Agregue un detector de eventos de clic para activar el método setCurrentState para reorganizar el carrusel
   useControls() {
     const triggers = [...galleryControlsContainer.childNodes];
 
@@ -69,14 +59,14 @@ class Carousel {
           const latestItem = this.carouselArray.length;
           const latestIndex = this.carouselArray.findIndex(item => item.getAttribute('data-index') == this.carouselArray.length)+1;
 
-          // Assign the necessary properties for new gallery item
+          // Asignar las propiedades necesarias para el nuevo elemento de la galería
           Object.assign(newItem,{
             className: 'gallery-item',
             src: `http://fakeimg.pl/300/?text=${this.carouselArray.length+1}`
           });
           newItem.setAttribute('data-index', this.carouselArray.length+1);
 
-          // Then add it to the carouselArray and update the gallery
+          // Luego agréguelo al carruselArray y actualice la galería
           this.carouselArray.splice(latestIndex, 0, newItem);
           document.querySelector(`[data-index="${latestItem}"]`).after(newItem);
           this.updateGallery();

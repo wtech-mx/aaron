@@ -4,8 +4,8 @@
 }
 
 .arrows-banner{
-    width:13%;
-    height:13%;
+    width:12%;
+    height:12%;
 }
 
 .arrows-transparent{
@@ -17,7 +17,7 @@
 }
 
 .tittle-banner{
-    font-size: calc(34px + (60 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+    font-size: calc(34px + (50 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
     font-weight: bold;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .container-banner{
-    padding:2.5rem!important;
+    padding:0.5rem!important;
 }
 
 .tittle-services{
@@ -37,6 +37,25 @@
     font-size: 15px;
 }
 
+   .container-about{
+        top:15%;
+        left: 3%;
+    }
+
+    .ul-about{
+        font-size:30px;
+    }
+
+    .container-about-text{
+        top: 15px;
+        position: relative;
+        font-size: 20px;
+        left: 30px;
+    }
+
+    .nav-li {
+        font-size: 16px;
+    }
 
 
 @media only screen and (max-width: 1750px) {
@@ -64,6 +83,7 @@
 }
 
 @media only screen and (max-width: 1055px) {
+
     .img-about{
         top: 93px;
     }
@@ -212,6 +232,10 @@
 }
 
 @media only screen and (max-width: 400px) {
+
+    .social {
+        top: 20px;
+    }
     .container-about{
         top: -10%;
         left: -10%;
@@ -240,8 +264,9 @@
     }
 
     .icon-custom {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
     }
 
 }
