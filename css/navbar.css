@@ -40,3 +40,6 @@
 .navbar-expand-md .navbar-nav .nav-link{
     padding: 0px;
 }
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
