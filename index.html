@@ -268,7 +268,7 @@
                             </div>
 
                             <div class="gallery-controls position-relative" style="z-index: 1000;">
-                                <button  class="gallery-controls-anterior btn btn-lg btn-primary btn-invisible-atras position-absolute" >btn</button>
+                                <button class="gallery-controls-anterior btn btn-lg btn-primary btn-invisible-atras position-absolute" id="gallery-controls-anterior">btn</button>
                                 <button class="gallery-controls-siguiente btn btn-lg btn-primary btn-invisible-adelante position-absolute" id="gallery-controls-siguiente">btn</button>
                             </div>
 
@@ -729,8 +729,12 @@ var interval = setInterval(function() {
 
 // eventos click de las etiquetas <a>
 $('#gallery-controls-siguiente').click(function() {
-  console.log('clic en btn1');
+  console.log('clic en siguiente');
 });
+
+$('#gallery-controls-anterior').click(function() {
+    console.log('clic en anterior');
+  });
 
 var elem = document.querySelector('.main-carousel');
 var flkty = new Flickity( elem, {

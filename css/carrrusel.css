@@ -176,6 +176,14 @@
   background: #555;
 }
 
+.gallery-controls-anterior{
+  opacity: 0;
+}
+
+.gallery-controls-siguiente{
+    opacity: 0;
+}
+
 .btn-invisible-atras{
   top: 50px;
   left: 0;
@@ -192,14 +200,6 @@
   height: 250px!important;
   opacity: 0;
   
-}
-
-.gallery-controls-anterior{
-  display: none;
-}
-
-.gallery-controls-siguiente{
-    display: none;
 }
 
 
