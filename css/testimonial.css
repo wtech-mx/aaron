@@ -11,7 +11,8 @@
 
 #testimonial_095>.carousel-inner {
     width: 75%;
-    margin: auto
+    margin: auto;
+    min-height: 426px!important;
 }
 
 #testimonial_095>.carousel-inner:hover {

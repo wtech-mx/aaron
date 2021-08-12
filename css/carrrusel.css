@@ -96,7 +96,8 @@
 }
 
 
-.gallery-controls button {
+
+.gallery-controls-cont button{
   background-color: transparent;
   border: transparent;
   color: #ffffff;
@@ -173,4 +174,52 @@
 
 .gallery-nav li.gallery-item-selected {
   background: #555;
+}
+
+.btn-invisible-atras{
+  top: 50px;
+  left: 0;
+  width: 350px;
+  height: 250px!important;
+  opacity: 0;
+  
+}
+
+.btn-invisible-adelante{
+  top: 50px;
+  right: 0;
+  width: 350px;
+  height: 250px!important;
+  opacity: 0;
+  
+}
+
+.gallery-controls-anterior{
+  display: none;
+}
+
+.gallery-controls-siguiente{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .btn-invisible-atras{
+    top: 50px;
+    left: 0;
+    width: 130px;
+    height: 250px!important;
+    opacity: 0;
+    
+  }
+
+  .btn-invisible-adelante{
+    top: 50px;
+    right: 0;
+    width: 130px;
+    height: 250px!important;
+    opacity: 0;
+    
+  }
 }

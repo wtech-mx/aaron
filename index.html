@@ -253,19 +253,24 @@
                     <section class="content-section-sector">
                         <div class="container">
                             <div class="content text-center mb-1">
-                                <div class="gallery-controls">
+                                <div class="gallery-controls-cont">
 
-                                    <button class="gallery-controls-anterior">
+                                    <button class="">
                                         <img class="arrows-transparent" src="./img/arrow-transparent-l.png">
                                     </button>
 
                                         <h4 class="mt-3 d-inline font-weight-bold text-white">Elige tu sector</h4>
 
-                                    <button class="gallery-controls-siguiente" id="gallery-controls-siguiente">
+                                    <button class="" id="">
                                         <img class="arrows-transparent" src="./img/arrow-transparent-r.png">
                                     </button>
                                 </div>
-                                </div>
+                            </div>
+
+                            <div class="gallery-controls position-relative" style="z-index: 1000;">
+                                <button  class="gallery-controls-anterior btn btn-lg btn-primary btn-invisible-atras position-absolute" >btn</button>
+                                <button class="gallery-controls-siguiente btn btn-lg btn-primary btn-invisible-adelante position-absolute" id="gallery-controls-siguiente">btn</button>
+                            </div>
 
                             <div class="row">
                                 <div class="col-12">
@@ -273,7 +278,7 @@
                                    <div class="gallery">
                                     <div class="gallery-container">
 
-                                      <img href="#" class="gallery-item gallery-item-1" src="./img/services/spa.png" data-index="1">
+                                      <img class="gallery-item gallery-item-1" src="./img/services/spa.png" data-index="1">
 
                                       <img class="gallery-item gallery-item-2" src="./img/services/tatto.png" data-index="2">
 
